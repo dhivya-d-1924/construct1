@@ -45,12 +45,14 @@ font-weight:600;
 /* HERO */
 
 .hero{
-height: 350vh;
+height:350px;
 background:url("images/image9.png") center/cover;
 display:flex;
 align-items:center;
 justify-content:space-evenly;
-padding:0 100px;
+text-align:center;
+color:white;
+ padding:0 100px;
 position:relative;
 }
 .hero{
@@ -601,16 +603,14 @@ font-weight:600;
 /* HERO */
 
 .hero{
-height:420px;
+height:350px;
 background:url("images/image28.png") center/cover;
 display:flex;
 align-items:center;
 justify-content:center;
 text-align:center;
 color:white;
-position:relative;
 }
-
 .hero::before{
 content:"";
 position:absolute;
@@ -947,16 +947,14 @@ font-weight:500;
 /* HERO */
 
 .hero{
-height:420px;
+height:350px;
 background:url("images/image28.png") center/cover;
 display:flex;
 align-items:center;
 justify-content:center;
 text-align:center;
 color:white;
-position:relative;
 }
-
 .hero::before{
 content:"";
 position:absolute;
@@ -1548,12 +1546,13 @@ color:#222;
 /* HERO */
 
 .hero{
-height:450px;
+height:350px;
 background:url("images/image28.png") center/cover;
-position:relative;
 display:flex;
 align-items:center;
 justify-content:center;
+text-align:center;
+color:white;
 }
 
 .hero-overlay{
@@ -1914,7 +1913,7 @@ font-weight:bold;
 /* CTA */
 
 .cta{
-background:url("cta.jpg") center/cover;
+background:url("images/image9.png") center/cover;
 padding:100px 20px;
 text-align:center;
 color:white;
